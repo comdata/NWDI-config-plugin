@@ -9,7 +9,7 @@
 
 	<groupId>org.arachna.netweaver</groupId>
 	<artifactId>NWDI-config-plugin</artifactId>
-	<version>1.0.10</version>
+	<version>1.0.11-SNAPSHOT</version>
 	<name>NWDI-config-plugin</name>
 	<packaging>jar</packaging>
 	<description>Provides configuration files for source code analysis of the family of NWDI-Jenkins plugins.</description>
@@ -46,7 +46,7 @@
 		<connection>scm:git:git://github.com/comdata/NWDI-config-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:comdata/NWDI-config-plugin.git</developerConnection>
 		<url>https://github.com/comdata/NWDI-config-Plugin</url>
-		<tag>NWDI-config-plugin-1.0.10</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<build>
