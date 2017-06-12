@@ -150,7 +150,7 @@
 						<artifactId>doclet</artifactId>
 						<version>5.6.6</version>
 					</docletArtifact>
-					<additionalparam>-ranksep 1 -nodesep 1 -inferdep -quiet -hide
+					<additionalparam>-Xdoclint:none -ranksep 1 -nodesep 1 -inferdep -quiet -hide
 						java.* -collpackages java.util.* -qualify -postfixpackage
 						-nodefontsize 9 -nodefontpackagesize 7</additionalparam>
 					<useStandardDocletOptions>true</useStandardDocletOptions>
