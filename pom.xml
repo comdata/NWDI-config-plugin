@@ -13,7 +13,7 @@
 	<name>NWDI-config-plugin</name>
 	<packaging>jar</packaging>
 	<description>Provides configuration files for source code analysis of the family of NWDI-Jenkins plugins.</description>
-	<url>http://github.com/weigo/NWDI-config-Plugin.git</url>
+	<url>http://github.com/comdata/NWDI-config-Plugin.git</url>
 	<inceptionYear>2011</inceptionYear>
 
 	<properties>
@@ -26,6 +26,7 @@
 		<developerConnection>scm:git:git@github.com:comdata/NWDI-config-plugin.git</developerConnection>
 		<url>https://github.com/comdata/NWDI-config-Plugin</url>
 	</scm>
+	
 	<repositories>
 		<repository>
 			<id>bintray</id>
@@ -34,7 +35,7 @@
 				<enabled>true</enabled>
 			</releases>
 			<snapshots>
-				<enabled>false</enabled>
+				<enabled>true</enabled>
 			</snapshots>
 		</repository>
 	</repositories>
