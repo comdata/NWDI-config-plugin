@@ -27,7 +27,18 @@
 		<developerConnection>scm:git:git@github.com:comdata/NWDI-config-plugin.git</developerConnection>
 		<url>https://github.com/comdata/NWDI-config-Plugin</url>
 	</scm>
-
+	<repositories>
+		<repository>
+			<id>bintray</id>
+			<url>http://dl.bintray.com/{bintray-user}/{bintray-repo}</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>
