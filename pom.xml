@@ -9,7 +9,7 @@
 
 	<groupId>org.arachna.netweaver</groupId>
 	<artifactId>NWDI-config-plugin</artifactId>
-	<version>1.0.11-SNAPSHOT</version>
+	<version>1.0.12-SNAPSHOT</version>
 	<name>NWDI-config-plugin</name>
 	<packaging>jar</packaging>
 	<description>Provides configuration files for source code analysis of the family of NWDI-Jenkins plugins.</description>
